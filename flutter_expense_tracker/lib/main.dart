@@ -18,8 +18,8 @@ void main() {
   //   return
   runApp(
     MaterialApp(
-      themeMode: ThemeMode.dark,
-      // themeMode: ThemeMode.system, //default
+      // themeMode: ThemeMode.dark,
+      themeMode: ThemeMode.light, //default
       darkTheme: ThemeData.dark().copyWith(
         useMaterial3: true,
         colorScheme: kDarkColorScheme,
